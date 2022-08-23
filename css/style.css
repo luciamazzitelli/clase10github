@@ -16,6 +16,17 @@ h1 {
   margin: 15px auto;
 }
 
+.holamundo:hover {
+  background-color: chartreuse;
+  transition: 3s;
+}
+
+.h1:hover {
+  color: blueviolet;
+  transform: skew(15deg);
+  transition: 3s;
+}
+
 .flex-index {
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +34,7 @@ h1 {
 }
 
 .flex-index img {
-    padding: 5px;
+  padding: 5px;
 }
 
 @media (max-width: 550px) {
