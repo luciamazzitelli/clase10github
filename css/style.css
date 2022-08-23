@@ -8,3 +8,18 @@ h1 {
     font-family: sans-serif;
     color: red;
 }
+
+.holamundo {
+    background-color: blue;
+    text-align: center;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+@media (max-width: 550px){
+    .holamundo {
+        background-color: blueviolet;
+    }
+}
+
+
